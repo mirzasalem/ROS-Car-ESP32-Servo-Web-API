@@ -25,7 +25,7 @@ void handleGetJob() {
     Serial.println("Received job_id: " + jobId);
 
     // Create URL for the external API GET request
-    getUrl = "http://192.168.68.113:8000/jobs/" + jobId;
+    getUrl = "http://192.168.68.109:8000/jobs/" + jobId;
 
     // Send GET request to the external server
     HTTPClient http;
